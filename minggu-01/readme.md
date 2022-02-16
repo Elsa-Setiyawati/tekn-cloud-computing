@@ -1,10 +1,12 @@
-# tekn-cloud-computing
+## _215611104 - Elsa Setiyawati_
 
-link file :
+# Minggu 1
 
-1. latihan 1-3
+# link file :
+
+1. [latihan 1-3]
    ====>
-2. rangkuman cloud computing
+2. [rangkuman cloud computing]
    ====>
-3. colaborasi
+3. [colaborasi]
    ====>
