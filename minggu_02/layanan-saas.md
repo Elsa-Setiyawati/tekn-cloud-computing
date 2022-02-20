@@ -1,29 +1,31 @@
 ## _215611104 - Elsa Setiyawati_
 
-# Software untuk membuat Desaign Grafis
+# Software untuk membuat diagram yaitu :
 
-## Software untuk membuat Desaign di Cloud
+## Software untuk membuat diagram Cloud :
 
-### 1. Canva
+### 1. Yuml.me
 
-Canva adalah sebuah tools untuk desain grafis yang menjembatani penggunanya agar dapat dengan mudah merancang berbagai jenis desain kreatif secara online. Mulai dari mendesain kartu ucapan, poster, brosur, infografik, hingga presentasi. Kemudian, hasil pembuatan di Canva tersebut otomatis tersimpan di cloud Canva sesuai dengan nama akun yang digunakan untuk login canva.
+Aplikasi untuk membuat class diagram adalah yuml.me yang bisa di akses di https://yuml.me/diagram/usecase/draw . Membuat usecase dengan cara mengetikkannya di sebelah kiri layar dan nanti perintah yang di ketik akan tampil di layar sebelah kanan.
 
-### 2. Adobe Creative Cloud
+![20](images/yuml.png)
 
-Adobe Creative Cloud adalah seperangkat aplikasi dan layanan dari Adobe Inc. yang memberikan pelanggan akses ke kumpulan perangkat lunak yang digunakan untuk desain grafis, pengeditan video, pengembangan web, fotografi, bersama dengan serangkaian aplikasi mobile dan juga beberapa layanan cloud opsional. Desaign yang telah dibuat menggunakan Adobe Creative Cloud dapat tersimpan di cloud, dengan cara login ke Adobe Creative Cloud menggunakan akun.
+### 2. Smartdraw
 
-## Software untuk membuat Desaign di Cloud
+Aplikasi yang bisa digunakan untuk menggambar UML diagram adalah smartdraw yang dapat diakses di alamat https://cloud.smartdraw.com.
 
-### 1. Paint
+![20](images/smartdraw.png)
 
-Paint adalah editor grafis raster sederhana yang telah disertakan dengan semua versi Microsoft Windows. Program membuka dan menyimpan file dalam format Windows bitmap, JPEG, GIF, PNG, dan TIFF satu halaman. Program dapat dalam mode warna atau dua warna hitam-putih, tetapi tidak ada mode skala abu-abu. Paint dapat disimpan di penyimpanan local komputer.
+## Software untuk membuat diagram versi non-cloud :
 
-### 2. Sketchable
+### 1. Visual Use Case
 
-Sketchable adalah aplikasi lukisan ringkas yang tidak memerlukan pengetahuan teknikal. Mana-mana pengguna dengan pengetahuan pengeditan foto yang minimum boleh menggunakannya dan membuat sebagian besarnya. Terdapat alat yang ditetapkan untuk setiap aplikasi lukisan termasuk berus, baldi cat, pemetik warna, palet warna, alat pembesaran, skala dan banyak lagi. Cukup ketik pada ikon maka dapat menggunakan apa-apa alatnya. Aplikasi Sketchable dapat menyimpan hasil desiagn di penyimpanan komputer local
+Aplikasi untuk membuat diagram dengan versi desktop.
 
-Referensi
-https://idcloudhost.com/mengenal-canva-dan-cara-menggunakannya/
-https://en.wikipedia.org/wiki/Adobe_Creative_Cloud
-https://en.wikipedia.org/wiki/Microsoft_Paint
-https://ms.play-and-more.com/4008-sketchable-review-windows-10
+![20](images/visual use case.png)
+
+### 2. Creately
+
+Untuk tampilan yang simple namun bisa menjelaskan berbagai alur program yang ingin dijabarkan. Aplikasi web creately bisa menjadi pilihannya.
+
+![20](images/creately.png)
