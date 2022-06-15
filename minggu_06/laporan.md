@@ -5,25 +5,37 @@
 ## 1) Install Go
 
 Berikut ini Langkah untuk install Go :
-1.1) Pertama, Download Go sesuai OS yang digunakan
-1.2) Install Go, ikuti saja seperti install aplikasi pada umunya.
-1.3) Setelah selesai install, cek Go di terminal
+
+### 1.1) Pertama, Download Go sesuai OS yang digunakan
+
+### 1.2) Install Go, ikuti saja seperti install aplikasi pada umunya.
+
+### 1.3) Setelah selesai install, cek Go di terminal
+
 ![20](images/1.png)
 
 ## 2) Install MySQL
 
 Berikut ini Langkah untuk install MySQL:
-1.1) Pertama, Download MYSQL sesuai OS yang digunakan
-1.2) Install MySQL, ikuti saja seperti install aplikasi pada umunya.
-1.3) Setelah selesai install, cek MySQL di terminal
+
+### 1.1) Pertama, Download MYSQL sesuai OS yang digunakan
+
+### 1.2) Install MySQL, ikuti saja seperti install aplikasi pada umunya.
+
+### 1.3) Setelah selesai install, cek MySQL di terminal
+
 ![20](images/2.png)
 
 ## 3) Install MongoDB
 
 Berikut ini Langkah untuk install MongoDB:
-1.1) Pertama, Download MONGODB sesuai OS yang digunakan
-1.2) Install MongoDB, ikuti saja seperti install aplikasi pada umunya.
-1.3) Setelah selesai install, cek MongoDB di terminal
+
+### 1.1) Pertama, Download MONGODB sesuai OS yang digunakan
+
+### 1.2) Install MongoDB, ikuti saja seperti install aplikasi pada umunya.
+
+### 1.3) Setelah selesai install, cek MongoDB di terminal
+
 ![20](images/3.png)
 
 # 2. Buat 2 contoh program Go masing-masing untuk koneksi dan membaca data dari MySQL dan MongoDB.
@@ -31,11 +43,17 @@ Berikut ini Langkah untuk install MongoDB:
 ## 1) Koneksi Go dengan MySQL untuk membaca data
 
 Berikut ini Langkah-langkah nya :
-1.1) Pertama yaitu, membuat Module Go dengan perintah "go mod init example/latihan"
+
+### 1.1) Pertama yaitu, membuat Module Go dengan perintah "go mod init example/latihan"
+
 ![20](images/4.png)
-1.2) Lalu, install library driver Mysql "go get github.com/go-sql-driver/mysql"
+
+### 1.2) Lalu, install library driver Mysql "go get github.com/go-sql-driver/mysql"
+
 ![20](images/5.png)
-1.3) Membuat file MySQL.go, agar MySQL bisa terkoneksi dengan Go. Berikut ini kode program di file MySQL.go
+
+### 1.3) Membuat file MySQL.go, agar MySQL bisa terkoneksi dengan Go. Berikut ini kode program di file MySQL.go
+
 package main
 import (
 "database/sql"
@@ -94,17 +112,23 @@ defer rows.Close()
 
 }
 
-1.4) Kemudian, menjalankan program dengan perintah "go run MySQL.go". jika berhasil terkoneksi maka akan muncul pesan “Connected” seperti gambar berikut ini.
+### 1.4) Kemudian, menjalankan program dengan perintah "go run MySQL.go". jika berhasil terkoneksi maka akan muncul pesan “Connected” seperti gambar berikut ini.
+
 ![20](images/6.png)
 
 ## 2) Koneksi Go dengan MongoDB untuk membaca data
 
 Berikut ini Langkah-langkah nya :
-1.1) Pertama, membuat Module Go dengan "go mod init example/latihan"
+
+### 1.1) Pertama, membuat Module Go dengan "go mod init example/latihan"
+
 ![20](images/7.png)
-1.2) Lalu, install library driver MongoDB "go get go.mongodb.org/mongo-driver/mongo"
+
+### 1.2) Lalu, install library driver MongoDB "go get go.mongodb.org/mongo-driver/mongo"
+
 ![20](images/8.png)
-1.3) Membuat file MongoDB.go, agar bisa terkoneksi dengan Go. Berikut ini kode program di file MongoDB.go
+
+### 1.3) Membuat file MongoDB.go, agar bisa terkoneksi dengan Go. Berikut ini kode program di file MongoDB.go
 
 package main
 
@@ -171,7 +195,8 @@ log.Println("Connected!")
 
 }
 
-1.4) Kemudian, menjalankan program dengan perintah "go run MongoDB.go". jika berhasil terkoneksi maka akan muncul pesan “Connected” seperti gambar berikut ini.
+### 1.4) Kemudian, menjalankan program dengan perintah "go run MongoDB.go". jika berhasil terkoneksi maka akan muncul pesan “Connected” seperti gambar berikut ini.
+
 ![20](images/9.png)
 
 ## 3) Dengan menggunakan Gin, buatlah RESTful API untuk membaca data dari MySQL dan MongoDB tersebut.
@@ -179,15 +204,24 @@ log.Println("Connected!")
 ### 1. RESTful API untuk membaca data MySQL menggunakan Gin
 
 Berikut ini Langkah-langkahnya :
-1.1) Create Module Go dengan "go mod init example/gin-mysql"
+
+### 1.1) Create Module Go dengan "go mod init example/gin-mysql"
+
 ![20](images/10.png)
-1.2) Kemudian, install framework gin "go get -u github.com/gin-gonic/gin"
+
+### 1.2) Kemudian, install framework gin "go get -u github.com/gin-gonic/gin"
+
 ![20](images/11.png)
-1.3) lalu, install library driver Mysql "go get github.com/jinzhu/gorm/dialects/mysql"
+
+### 1.3) lalu, install library driver Mysql "go get github.com/jinzhu/gorm/dialects/mysql"
+
 ![20](images/12.png)
-1.4) install library pendukung "go get github.com/jinzhu/gorm"
+
+### 1.4) install library pendukung "go get github.com/jinzhu/gorm"
+
 ![20](images/13.png)
-1.5) Membuat file main.go, untuk mengubungkan framework Gin dengan MySQL
+
+### 1.5) Membuat file main.go, untuk mengubungkan framework Gin dengan MySQL
 
 package main
 import (
@@ -239,17 +273,26 @@ func main() {
 
 }
 
-1.6) Selanjutnya, jalankan main.go "go run main.go"
+### 1.6) Selanjutnya, jalankan main.go "go run main.go"
+
 ![20](images/14.png)
-1.7) Selanjutnya, cek di browser akses http://localhost:20001/api/propinsi
+
+### 1.7) Selanjutnya, cek di browser akses http://localhost:20001/api/propinsi
+
 ![20](images/15.png)
 
 ### 2. RESTful API untuk membaca data MongoDB menggunakan Gin
 
 Berikut ini Langkah-langkahnya :
-1.1) Pertama, membuat Module Go dengan "go mod init example/gin-mongodb"
+
+### 1.1) Pertama, membuat Module Go dengan "go mod init example/gin-mongodb"
+
 ![20](images/16.png)
-1.2) Selanjutnya, install framework gin "go get -u github.com/gin-gonic/gin"
+
+### 1.2) Selanjutnya, install framework gin "go get -u github.com/gin-gonic/gin"
+
 ![20](images/17.png)
-1.3) install library driver MongoDB "go get go.mongodb.org/mongo-driver/mongo”
+
+### 1.3) install library driver MongoDB "go get go.mongodb.org/mongo-driver/mongo”
+
 ![20](images/18.png)
